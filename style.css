@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b4e9db;
+}
+
+.container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header {
+    background-color: #6e6d6b96;
+    color: rgb(31, 26, 26);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    backdrop-filter: blur(15px);
+}
+.header h1{
+    display: inline-block;
+    align-content: center;
+    width:1000px;
+}
+header img {
+    display: flex;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    margin: 30px;
+    
+}
+nav {
+    display: flex;
+    align-content: end;
+    justify-content: space-between;
+    background-color: transparent;
+    overflow: hidden;
+}
+nav a {
+    float: right;
+    display: block;
+    color: rgb(31, 27, 27);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+nav a:last-child {
+    border-right: none;
+    color: black;
+}
+nav a:hover {
+    background-color: #f4efef;
+    color: black;
+}
+
+#main1,#main2,#main3,#main4,#main5 , #main6{
+    padding: 30px 0;
+}
+
+.booking-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+.booking-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.schedule {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #807b7b61;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:60px;
+}
+
+footer p {
+    font-size: 14px;
+}
